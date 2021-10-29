@@ -78,7 +78,7 @@
 }
 
 .searchbar {
-  width: 400px;
+  /* width: 400px; */
   margin: 0 auto;
   display: flex;
   justify-content: center;

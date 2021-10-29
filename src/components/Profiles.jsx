@@ -33,7 +33,7 @@ const Profiles = () => {
                 setSearchTerm(e.target.value);
               }}
             />
-            <button type="submit">
+            <button type="submit" onSubmit={(e) => e.preventDefault()}>
               <i className="fas fa-search"></i> search
             </button>
           </form>
@@ -63,7 +63,7 @@ const Profiles = () => {
             ) {
               return val;
             }
-            return true;
+            return false;
           })
           .map((profile) => {
             return (
