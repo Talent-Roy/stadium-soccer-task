@@ -63,6 +63,7 @@ const Profiles = () => {
             ) {
               return val;
             }
+            return true;
           })
           .map((profile) => {
             return (
